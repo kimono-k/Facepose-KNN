@@ -3,6 +3,7 @@ const video = document.getElementById("video");
 const k = 40;
 const knn = new kNear(k);
 
+// Generic Buttons
 const bananaButton = document.getElementById("banana-expression");
 const angryButton = document.getElementById("angry-expression");
 const disgustedButton = document.getElementById("disgusted-expression");
@@ -14,6 +15,7 @@ const boredButton = document.getElementById("bored-expression");
 const anxiousButton = document.getElementById("anxious-expression");
 const jealousButton = document.getElementById("jealous-expression");
 
+// Prediction Buttons
 const predictionButton = document.getElementById("prediction");
 const predictionResult = document.getElementById("prediction-result");
 
